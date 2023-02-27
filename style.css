@@ -1,0 +1,125 @@
+body{
+  background-image: url(bg4.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ background-color:rgb(0, 0, 0);
+}
+header{
+    /* background-color:#CDF0EA ; */
+    border: 2px solid white;
+    margin: 4px;
+    padding: 1px;
+}
+.parag{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+.new{
+    color: white;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: inline-start;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 189px;
+    border: 2px solid white;
+    color: whitesmoke;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h1{
+    text-align: center;
+    color: rgb(146, 115, 146);
+}
+h2{
+    text-align: center;
+    color: rgb(146, 115, 146);
+}
+.text{
+    text-align: center;
+   
+    color: rgb(91, 91, 221)
+}
+.listt{
+    padding-left: 660px;
+    color:white;
+  
+}
+.comp{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.links{
+width: 41px;
+height: 41px;
+position: relative;
+}
+.name{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: aquamarine;
+}
+
+.gits:link, .gits:visited {
+    background-color:#333 ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .gits:hover, .gits:active {
+    background-color:rgb(128, 128, 0);
+  }
+  .linkedin:link, .linkedin:visited {
+    background-color:#333 ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .linkedin:hover, .linkedin:active {
+    background-color:rgb(128, 128, 0);
+  }
+  .contacts{
+    padding-left: 656px;
+  }
