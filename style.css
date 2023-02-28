@@ -34,7 +34,7 @@ ul {
   }
   
   li {
-    float: inline-start;
+    float: left;
   }
   
   li a {
