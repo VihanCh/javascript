@@ -80,6 +80,7 @@ h2{
 .listt{
     text-align: center;
     color:white;
+    display: grid;
   
 }
 .comp{
